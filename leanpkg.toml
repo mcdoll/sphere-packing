@@ -1,0 +1,8 @@
+[package]
+name = "sphere-packing"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.48.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "acf831c1704c752d7095ababb2d9e5bdd8024656"}
